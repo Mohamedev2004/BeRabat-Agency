@@ -3,7 +3,19 @@
     --theme-color: #181818;
     --main-color: #005cc3;
 }
+@media (max-width: 768px) {
+    .logo {
+        width: 100px; /* Smaller logos on smaller screens */
+    }
 
+    .trusted-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .logo-track {
+        gap: 20px; /* Reduce spacing for smaller screens */
+    }
+}
 /* --------------- Menu --------------- */
 .header-sa {
     min-height: 100vh;
