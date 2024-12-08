@@ -16,6 +16,7 @@
     .logo-track {
         gap: 20px; /* Reduce spacing for smaller screens */
     }
+
 }
 .navbar {
     position: absolute;
@@ -655,7 +656,7 @@ h4 {
 }
 
 h5 {
-    font-size: 60px;
+    font-size: 30px;
     letter-spacing: -1px;
 }
 
